@@ -1,0 +1,13 @@
+{
+  "name": "snip",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack URL shortener (React + Express + SQLite)",
+  "scripts": {
+    "format": "prettier --write \"backend/src/**/*.js\" \"frontend/src/**/*.jsx\"",
+    "format:check": "prettier --check \"backend/src/**/*.js\" \"frontend/src/**/*.jsx\""
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}
